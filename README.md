@@ -9,18 +9,43 @@ Furthermore, we extend this novel loss function to propose an innovative evaluat
 ## Repository Contents
 - dataset.zip: Contains the dataset utilized for training and evaluation. Please unzip this file before running any code.
 
-- architectures.py: Python script housing the implementations of Convolutional Autoencoder, Variational Autoencoder, U-Net, and Generative Adversarial Network for solving Tangram puzzles.
+- architectures.py: Python script housing the implementations of CAE, VAE, U-Net, and GAN for solving Tangram puzzles.
 
 - loss_wmae.py: Module featuring the implementation of the custom loss function based on Weighted Mean Absolute Error, introduced in the paper.
 
-- requirements.txt: requirements for reproducing the reported results.
+- requirements.txt: Library requirements for reproducing the reported results.
 
 ## Getting Started
 ### Prerequisites
 Ensure you have the required dependencies installed by referring to the list provided in the requirements.txt file.
 
+```
+pip install -r requirements.txt
+```
+### Installation
+Clone the repository.
+
+```
+git clone https://github.com/your-username/TangramDeep.git
+cd TangramDeep
+```
+
+### Usage
+Explore architectures with architectures.py.
+```
+python architectures.py
+```
+Use the custom loss function in your code by importing loss_wmae.
+```
+from loss_wmae import custom_loss
+
+# ... (your code)
+model.compile(optimizer='adam', loss=custom_loss)
+# ... (continue with your code)
+```
+
 ## Contact
-For questions or information, contact [Your Name] at [your@email.com].
+For questions or information, contact Fernanda Miyuki Yamada at y2140014@edu.cc.uec.ac.jp.
 
 Happy puzzling with TangramDeep!
 

@@ -7,45 +7,17 @@ Our experiments reveal that the Generative Adversarial Network exhibits competit
 Furthermore, we extend this novel loss function to propose an innovative evaluation metric. This metric provides a more suitable measure for assessing Tangram solutions compared to traditional metrics. The insights gained from this investigation advance our understanding of the capabilities of artificial intelligence in tackling complex geometrical problem domains, particularly in the context of irregular shape-packing problems.
 
 ## Repository Contents
-dataset.zip: Contains the dataset utilized for training and evaluation. Please unzip this file before running any code.
+- dataset.zip: Contains the dataset utilized for training and evaluation. Please unzip this file before running any code.
 
-architectures.py: Python script housing the implementations of Convolutional Autoencoder, Variational Autoencoder, U-Net, and Generative Adversarial Network for solving Tangram puzzles.
+- architectures.py: Python script housing the implementations of Convolutional Autoencoder, Variational Autoencoder, U-Net, and Generative Adversarial Network for solving Tangram puzzles.
 
-loss_wmae.py: Module featuring the implementation of the custom loss function based on Weighted Mean Absolute Error, introduced in the paper.
+- loss_wmae.py: Module featuring the implementation of the custom loss function based on Weighted Mean Absolute Error, introduced in the paper.
 
-requirements.txt: requirements for reproducing the reported results.
+- requirements.txt: requirements for reproducing the reported results.
 
 ## Getting Started
 ### Prerequisites
 Ensure you have the required dependencies installed by referring to the list provided in the requirements.txt file.
-
-bash
-Copy code
-pip install -r requirements.txt
-Installation
-Clone the repository to your local machine.
-bash
-Copy code
-git clone https://github.com/your-username/TangramDeep.git
-cd TangramDeep
-Unzip the dataset file.
-bash
-Copy code
-unzip dataset.zip
-Usage
-Explore different Tangram-solving architectures by running the architectures.py script.
-bash
-Copy code
-python architectures.py
-Utilize the custom loss function in your own code by importing the loss_wmae module.
-python
-Copy code
-from loss_wmae import custom_loss
-
-# ... (your code)
-model.compile(optimizer='adam', loss=custom_loss)
-# ... (continue with your code)
-
 
 ## Contact
 For questions or information, contact [Your Name] at [your@email.com].

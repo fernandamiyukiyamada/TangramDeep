@@ -1,4 +1,4 @@
-def custom_loss():
+def wmae_loss():
     def loss(y_true, y_pred):
         coeff = 5
         y_true1, y_pred1 = (255 - y_true) / 255, (255 - y_pred) / 255

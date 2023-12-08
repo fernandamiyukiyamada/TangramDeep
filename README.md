@@ -11,7 +11,7 @@ Furthermore, we extend this novel loss function to propose an innovative evaluat
 
 - architectures.py: Python script housing the implementations of CAE, VAE, U-Net, and GAN for solving Tangram puzzles.
 
-- loss_wmae.py: Module featuring the implementation of the custom loss function based on Weighted Mean Absolute Error, introduced in the paper.
+- loss_wmae.py: Implementation of the custom loss function based on Weighted Mean Absolute Error, introduced in the paper.
 
 - requirements.txt: Library requirements for reproducing the reported results.
 

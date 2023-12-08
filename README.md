@@ -47,5 +47,5 @@ model.compile(optimizer='adam', loss=custom_loss)
 ## Contact
 For questions or information, contact Fernanda Miyuki Yamada at y2140014@edu.cc.uec.ac.jp.
 
-Happy puzzling with TangramDeep!
+Happy coding with TangramDeep!
 

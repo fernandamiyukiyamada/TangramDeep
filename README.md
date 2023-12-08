@@ -31,10 +31,6 @@ cd TangramDeep
 ```
 
 ### Usage
-Explore architectures with architectures.py.
-```
-python architectures.py
-```
 Use the custom loss function in your code by importing loss_wmae.
 ```
 from loss_wmae import custom_loss

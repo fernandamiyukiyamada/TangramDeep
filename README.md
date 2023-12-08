@@ -1,5 +1,5 @@
 # TangramDeep
-## Abstract
+## Description
 The Tangram is a dissection puzzle consisting of seven polygonal pieces that can be arranged to form various patterns. Solving the Tangram poses a challenge as it is an irregular shape packing problem recognized as NP-hard. This paper delves into the application of four distinct deep-learning architectures—Convolutional Autoencoder, Variational Autoencoder, U-Net, and Generative Adversarial Network—tailored for solving Tangram puzzles. The primary focus is on understanding the capabilities of these architectures in capturing the intricate spatial relationships inherent in Tangram configurations.
 
 Our experiments reveal that the Generative Adversarial Network exhibits competitive performance when compared to the other architectures and converges notably faster. We also discover that traditional evaluation metrics based on pixel accuracy often fall short in adequately assessing the visual quality of the generated Tangram solutions. To address this limitation, we introduce a novel loss function grounded in a Weighted Mean Absolute Error. This function prioritizes pixels representing inter-piece sections over those covered by individual pieces, offering a more nuanced evaluation of the generated solutions.

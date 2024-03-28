@@ -33,10 +33,10 @@ cd TangramDeep
 ### Usage
 Use the custom loss function in your code by importing loss_wmae.
 ```
-from loss_wmae import custom_loss
+from wmae import loss_wmae
 
 # ... (your code)
-model.compile(optimizer='adam', loss=custom_loss)
+model.compile(optimizer='adam', loss=loss_wmae)
 # ... (continue with your code)
 ```
 
